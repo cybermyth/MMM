@@ -3,8 +3,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y --no-install-recommends \
-        mariadb-server-10.0 \
-        percona-xtrabackup \
+        mariadb-server-10.1 \
         socat \
         expect \
         sudo \
