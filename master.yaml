@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: 127.0.0.1:31500/qa/master:latest
+        image: 127.0.0.1:5000/master:latest
 ---
 apiVersion: v1
 kind: Service

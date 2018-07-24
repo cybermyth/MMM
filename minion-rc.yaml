@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: minion
-        image: 127.0.0.1:31500/qa/minion:latest
+        image: 127.0.0.1:5000/minion:latest
         env:
         - name: MINION_RC
           value: "1"

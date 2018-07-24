@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: 127.0.0.1:31500/qa/mariadb:latest
+        image: 127.0.0.1:5000/mariadb:latest
 ---
 apiVersion: v1
 kind: Service

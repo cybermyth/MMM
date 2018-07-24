@@ -1,5 +1,5 @@
 #!/bin/bash
-REGISTRY="127.0.0.1:5000/qa"
+REGISTRY="127.0.0.1:5000"
 MY_PATH="`dirname \"$0\"`" 
 MY_PATH="`( cd \"$MY_PATH\" && pwd )`"
 
